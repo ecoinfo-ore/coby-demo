@@ -12,9 +12,9 @@ type   = DATARIV_DB_PG
 #################################
 
 jdbc.name     = dbLacsMapping
-jdbc.url      = jdbc:postgresql://127.0.0.1/country?sendBufferSize=5000
-jdbc.user     = admin
-jdbc.password = admin
+jdbc.url      = jdbc:postgresql://147.100.179.208:5433/donesol3_ns?currentSchema=meta
+jdbc.user     = postgres
+jdbc.password = Alt0s7
 jdbc.driver   = org.postgresql.Driver
 
 

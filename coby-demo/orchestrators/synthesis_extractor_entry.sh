@@ -76,9 +76,9 @@
     
     # dataRiv 
     DATARIV_LOG_LEVEL="INFO"
-    DATARIV_PAGE_SIZE="100000"
-    DATARIV_FRAGMENT="1000000"
-    DATARIV_FLUSH_COUNT="100000"
+    DATARIV_PAGE_SIZE="10"
+    DATARIV_FRAGMENT="10"
+    DATARIV_FLUSH_COUNT="10"
     DATARIV_PARALLELISM="0"     # 0 : Available cores. 1 : No parallelism. > 1 Parallelism "" 
     DATARIV_INDEX_COLUMNS="index_columns"
     DATARIV_ENTAILMENT="" # "datariv_entailment" # Disable : ""
@@ -282,7 +282,7 @@
                                    namespace="$NAME_SPACE"  \
                                    output="$OUT"            \
                                    query_path="$QUERY_PATH" \
-                                   accept="text/csv"
+                                    accept="application/sparql-results+xml"
         # Accept Examples :
         #   application/sparql-results+xml
         #   application/sparql-results+json, application/json
@@ -404,7 +404,7 @@
                                       namespace="$NAME_SPACE"  \
                                       output="$OUT"            \
                                       query_path="$QUERY_PATH" \
-                                      accept="text/csv"
+                                      accept="application/sparql-results+xml"
            # Accept Examples :
            #   application/sparql-results+xml
            #   application/sparql-results+json, application/json
