@@ -60,7 +60,7 @@
               <y:Geometry height="385.39274323575364" width="1084.2140137447623" x="423.67688096100153" y="478.13957469646476"/>
               <y:Fill color="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="297.34375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1084.2140137447623" x="0.0" xml:space="preserve" y="44.024496617876764">Query_(1):  SELECT nom_contexte, schema_table, nom_relation, nom_attribut, type_sql, null as definition
+              <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="297.34375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1084.2140137447623" x="0.0" xml:space="preserve" y="44.024496617876764">Query_(1):  SELECT nom_contexte, schema_table, nom_relation, nom_attribut, type_sql, definition
 
 FROM meta.attribut 
 
